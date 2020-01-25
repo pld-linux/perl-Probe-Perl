@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Probe
 %define	pnam	Perl
 Summary:	Probe::Perl - information about the currently running perl
