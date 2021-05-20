@@ -7,17 +7,18 @@
 Summary:	Probe::Perl - information about the currently running perl
 Summary(pl.UTF-8):	Probe::Perl - informacje o aktualnie działającym perlu
 Name:		perl-Probe-Perl
-Version:	0.02
+Version:	0.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/K/KW/KWILLIAMS/Probe-Perl-%{version}.tar.gz
-# Source0-md5:	e719323ef5cb22ab08e954f5868d8c6b
-URL:		http://search.cpan.org/dist/Probe-Perl/
+# Source0-md5:	8876e1b99c531800a86b383702e0ab73
+URL:		https://metacpan.org/release/Probe-Perl
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
